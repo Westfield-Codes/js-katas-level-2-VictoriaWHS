@@ -13,5 +13,8 @@
 
 /* Var Alert Prompt Conditional */
 // make a variable for color, prompt the user for their favorite
+var color = prompt("what is your favorite color?");
+if (color = "black" | "Black") alert("black is not really a color");
+else alert("is a nice color");
 // if user enters "black" alert "Black is not really a color." 
 // otherwise alert color " is a nice color!"
