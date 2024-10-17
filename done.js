@@ -7,6 +7,7 @@
 
 /* Prompt */
 
+
 /* Prompt with Conditional */
 
 
@@ -17,8 +18,14 @@
 
 /* Prompt */
 
+/* Var Alert Prompt */
 
+var theage = prompt("how old are you?");
+var born = prompt("what year were you born?");
+if (theage != born) alert("underaged");
+else alert("Welcome!");
 /* Prompt with Conditional */
+
 
 
 /* ICE CREAM */
