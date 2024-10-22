@@ -21,7 +21,7 @@
  * Get thisYear using the date function https://www.w3schools.com/js/js_date_methods.asp
  * set birthYear as thisYear minus age and return that
  * @param: age (integer)
- * @return: year (year)
+ * @return: birthyear (year)
  */
 
 /* NOTE TO PROGRAMMERS: myAge(age) only works if you have not had your birthday.  
