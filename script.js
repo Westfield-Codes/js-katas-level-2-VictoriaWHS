@@ -1,29 +1,47 @@
 
-/* FUNCTION main()  
- * Ask for the name of a dog (dogName)
- * Ask how many cups of food they get each meal (cups)
- * call feedDog with parameters dogName, cups
+/* CALCULATOR KATA */
+
+/* This is best done with a switch control, though can also be a chain of conditionals. */
+main();
+function main(){
+    let operation = prompt()
+}
+/* FUNCTION main() 
+ * Ask the user what operation they want (+, -, *, /)
+
+ * Ask the user for the first number (a)
+ * Parse a as an integer
+ * Ask the user for the second number (b)
+ * Parse b as an integer
+ * Based on the operation, send the numbers to the right function as
+ * arguments and store the returned value in variable called result
+ * Alert the equation a + operation + b = result
  * @param: none (main never gets params)
  * @return: none (main never gets returns
  */
-/* FUNCTION feedDog(dogName, cups) */
-/* define a function called feedDog with string parameter dogName, number parameter cups
- * loop from cup = 1 to cups.  For each cup, display "Here's a cup of kibble, [dogName]!"
- * @param: dogName (string), cups (integer)
- * @return: none
- */ 
 
-main();
+/* FUNCTION add(a,b)
+ * define a function called add with two number parameters a and b
+ * @param: a, b (integers)
+ * @return: a + b
+ */
 
-function main(){ 
-    let dogName = prompt("whats your dog's name?");
-    let cups = prompt("How many cups of food do they get each meal?");
-    feedDog(dogName, cups);
-}
+/* FUNCTION subtract(a,b)
+ * define a function called subtract with two number parameters a and b
+ * @param: a, b (integers)
+ * @return: a - b
+ */
+
+/* FUNCTION multiply(a,b)
+ * define a function called multiply with two number parameters a and b
+ * @param: a, b (integers)
+ * @return: a * b (* means multiply)
+ */
+
+/* FUNCTION divide(a,b)
+ * define a function called divide with two number parameters a and b
+ * @param: a, b (integers)
+ * @return: a / b (/ means divided by)
+ */
 
 
-function feedDog(dogName, cup){
-    for (let cup = 1; cup <= cups; cup=cups+2){
-        alert("Here's a cup of kibble, " + dogName + " !");
-    }
-}
