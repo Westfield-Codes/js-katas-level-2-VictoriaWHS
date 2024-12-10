@@ -1,12 +1,29 @@
 /* CALCULATOR KATA */
 
 /* This is best done with a switch control, though can also be a chain of conditionals. */
-
+main();
 // FUNCTION main() 
 function main(){
 let operation=prompt("What kind of operation do you want?");
+let a=prompt("What would you like the first number to be?");
+let c=prompt("What would you like the second number to be?");
 switch(operation){
-    case
+    case "-":
+        alert("go to subtraction");
+        break;
+    case "+":
+        alert("Go to addition");
+        break;
+    case "/":
+        alert("go to division");
+        break;
+    case "*":
+        alert("go to multiplication")
+        break;
+    default:
+        alert("This is not an option.");
+        return main();
+
 }
 
 // Ask the user what operation they want (+, -, *, /)
