@@ -4,13 +4,19 @@
 /* This is best done with a switch control, though can also be a chain of conditionals. */
 
 // FUNCTION main() 
-function main(a,b){
+function main(){
     let operation = prompt("What operation do you want and make sure to spell it out, '+','-','*','/'?");
     let a =prompt("What is the first number?");
     let b = prompt("What is the second number?");
-    if (operation == "addition" || operation == "add") add();
-    else if (operation == "subtraction") subtract();
-    else if (operation == "division" || operation =="divide") function divide();
+    if (operation == "addition" || operation == "add"){
+    add();
+    }
+        else if (operation == "subtraction"){
+        subtract();
+    }
+        else if(operation == "division" || operation =="divide"){
+        function divide(a,b);
+        }
 }
  // Ask the user what operation they want (+, -, *, /)
 
