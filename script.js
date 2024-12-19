@@ -18,12 +18,8 @@ switch(operation){
         alert("go to division");
         break;
     case "*":
-        alert("go to multiplication")
-        break;
-    default:
-        alert("This is not an option.");
-        return main();
-
+        alert("go to multiplication");
+        
 }
 
 // Ask the user what operation they want (+, -, *, /)
